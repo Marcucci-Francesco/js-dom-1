@@ -3,3 +3,21 @@
   padding: 0 auto;
   box-sizing: border-box;
 }
+
+
+.container{
+  min-height: 200px;
+  border: 1px solid white;
+  margin-top: 160px;
+  border-radius: 25px;
+}
+
+#light-on {
+  transform: scaleX(-1);
+}
+
+
+.row button {
+  font-size: 30px;
+  border-radius: 35px;
+}

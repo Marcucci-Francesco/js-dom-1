@@ -3,11 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BOOTSTRAP -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css' integrity='sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==' crossorigin='anonymous'/>
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
   <title>LAMPADINA</title>
 </head>
-<body>
+<body class="bg-black">
   
+  <main>
+    <div class="container bg-white">
+      <div class="row">
+        <div class="col-6 d-flex align-items-center justify-content-center">
+          <img id="light-off" src="img/white_lamp.png" alt="Lampadina">
+          <img id="light-on" class="d-none" src="img/yellow_lamp.png" alt="Lampadina accesa">
+        </div>
+        <div class="col-6 d-flex align-items-center justify-content-center">
+          <button type="button" class="px-5 py-2 btn btn-success text-uppercase">Accendi</button>
+        </div>
+      </div>
+    </div>
+  </main>
 
 
 

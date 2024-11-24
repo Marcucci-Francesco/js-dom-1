@@ -7,6 +7,6 @@ button.addEventListener ('click', () => {
   lightOff.classList.toggle('d-none');
   lightOn.classList.toggle('d-none')
   lightOn.classList.toggle('d-block');
-  button.innerHTML = button.classList.contains('btn-danger') ? 'Spengi' : 'accendi';
+  button.innerHTML = button.classList.contains('btn-danger') ? 'Spegni' : 'accendi';
 })
 
